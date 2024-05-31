@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/dist/',
+    base: '/MyBlog/',
     title: '知否',
     description: 'Just playing around.',
     themeConfig: {
