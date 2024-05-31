@@ -42,7 +42,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: qx
-        run: sudo chmod -R 777 
+        run: su 
       - name: Install dependencies
         run: npm install # 或 pnpm install / yarn install / bun install
       - name: Build with VitePress
